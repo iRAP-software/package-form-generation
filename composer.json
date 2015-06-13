@@ -1,0 +1,26 @@
+{
+    "name": "irap/form-generation",
+    "type": "library",
+    "description": "Package for the quick creation of HTML forms.",
+    "keywords": ["html", "forms"],
+    "homepage": "http://www.irap.org/",
+    "license": "none",
+    "authors": [
+        {
+            "name": "Stuart Page",
+            "email": "stuart.page@irap.org",
+            "homepage": "http://www.irap.org/",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [ { "type": "composer", "url": "http://satis.irap-dev.org/" } ],
+    "require": {
+        "php": ">=5.3.0",
+        "irap/core-libs": "1.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iRAP\\FormGeneration\\": ""
+        }
+    }
+}
